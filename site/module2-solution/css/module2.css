@@ -9,8 +9,11 @@ h1,h2{
 }
 
 @media (min-width: 767px) and (max-width: 991px){
-	body{
-		background-color: blue;
+	#content1,#content2{
+		width: 50%;
+	}
+	#content3{
+		width: 100%;
 	}
 }
 
