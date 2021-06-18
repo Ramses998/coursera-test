@@ -3,9 +3,9 @@ h1,h2{
 }
 
 @media (min-width: 992px){
-	body{
-		background-color: red;
-	}
+	#content1,#content2,#content3{
+		width: 33%;
+	}	
 }
 
 @media (min-width: 767px) and (max-width: 991px){
