@@ -2,15 +2,55 @@ h1,h2{
 	text-align: center;
 }
 
-#content1,#content2,#content3{
+body{
+	margin: 0;
+
+}
+*{
+	box-sizing: border-box;
+}
+
+.titleText{
+	text-align: center;
+	font-size: 26px;
+	background-color: red;
+	border-style: solid;
+	margin: 0px;
+	width: 30%;
+	float: right;
+
+}
+
+#content{
 	background-color: black;
-	opacity: .5;
+    width: 100%;/
+    table-layout: fixed;
+    border-spacing: 10px;
+    
+}
+
+#content1,#content2,#content3{
+	
+	display: inline-block;
+	background-color: #dbdbdb;
+	border-style: solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+
+.texto{
+	clear: right;
+	margin: 0;
+	padding: 15px;
 }
 
 @media (min-width: 992px){
 	#content1,#content2,#content3{
-		width: 33%;
+		width: 30%;
 	}	
+
 }
 
 @media (min-width: 767px) and (max-width: 991px){
