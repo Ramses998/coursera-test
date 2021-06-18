@@ -2,6 +2,11 @@ h1,h2{
 	text-align: center;
 }
 
+#content1,#content2,#content3{
+	background-color: black;
+	opacity: .5;
+}
+
 @media (min-width: 992px){
 	#content1,#content2,#content3{
 		width: 33%;
